@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Machine Learning App</title>
+    </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Chest Pain: <input type="number" name="Chest pain", placeholder="Enter Chest pain severity between 1-5" required/>
+            <br><br>
+            BP: <input type="number" name="BP", placeholder="Enter blood pressure level" required/>
+            <br><br>
+            Cholestrol: <input type="number" name="Cholestrol", placeholder="Enter Cholestrol levels" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
